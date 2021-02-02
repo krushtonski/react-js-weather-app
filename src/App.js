@@ -2,17 +2,17 @@ import './App.css';
 import React from "react";
 import Weather from "./Weather";
 import Projections from "./Projections";
+<img src="/images/lady.png" className="gardening" alt="lady" />
 import Signature from "./Signature";
-import Image from "../public/images/lady.png";
 
 function App() {
   return (
     <div className="App">
        <h1>Weather Forecast App</h1>
       <Weather />
-      <img src={Image} className="gardening" />
-      <Projections/>
-      <Signature/>
+      <Projections />
+      <img src={Image} className="gardening"/>
+      <Signature />
     </div>
   );
 }
