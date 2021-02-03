@@ -9,8 +9,8 @@ function App() {
     <div className="App">
        <h1>Weather Forecast App</h1>
       <Weather />
+      <img src="/images/lady.png" className="gardening"/>
       <Projections />
-      <img src="/images/lady.png" className="gardening" alt="lady" />
       <Signature />
     </div>
   );

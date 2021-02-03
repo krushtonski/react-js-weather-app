@@ -1,6 +1,5 @@
 import React from "react";
 import "./Signature.css";
-
 export default function Signature() {
   return (
     <div className="signatures">
@@ -8,6 +7,7 @@ export default function Signature() {
         <a
           href="https://github.com/krushtonski/SheCodes-Weather-Application"
           target="_blank"
+          rel="noreferrer"
         >
           Open-source code
         </a>{" "}
@@ -18,6 +18,7 @@ export default function Signature() {
         <a
           href="https://blush.design/collections/cool-kids/scene-watering-plants/OYvKVU_Qt"
           target="_blank"
+          rel="noreferrer"
         >
           Watering Plants Illustration
         </a>{" "}
