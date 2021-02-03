@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="App">
        <h1>Weather Forecast App</h1>
-      <Weather />
-      <img src="/images/lady.png" className="gardening"/>
+      <Weather defaultCity="Berlin"/>
+       <img src="/images/lady.png" className="gardening" alt="lady"/>
       <Projections />
       <Signature />
     </div>
