@@ -64,7 +64,6 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <img src="/images/lady.png" className="lady" alt="lady" />
         <h3>Forecast in 3-Hour Intervals</h3>
         <WeatherForecast city={weatherData.city} />
       </div>
