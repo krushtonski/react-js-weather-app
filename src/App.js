@@ -1,8 +1,8 @@
-import './App.css';
 import React from "react";
 import Weather from "./Weather";
 import Projections from "./Projections";
 import Signature from "./Signature";
+import './App.css';
 
 function App() {
   return (
