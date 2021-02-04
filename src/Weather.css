@@ -10,7 +10,7 @@ form {
 }
 .form-control {
   font-size: 21px;
-  opacity: 50%;
+  opacity: 0.5;
 }
 .btn {
   font-size: 18px;

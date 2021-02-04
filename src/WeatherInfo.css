@@ -10,7 +10,7 @@ h2 {
 }
 .last-updated {
   font-size: 16px;
-  opacity: 50%;
+  opacity: 0.5;
   margin-left: 5px;
 }
 .overview {
@@ -34,7 +34,7 @@ ul {
 }
 
 li {
-  opacity: 75%;
+  opacity: 0.75;
   list-style: none;
   margin-left: 5px;
   padding: 1px;
