@@ -1,0 +1,23 @@
+.temperature {
+  color: rgb(33, 33, 33);
+  font-size: 64px;
+  line-height: 1;
+  font-weight: 400;
+  padding: 2px;
+}
+
+.units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+  padding: 1px;
+}
+
+.WeatherTemperature .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.WeatherTemperature .active:hover {
+  text-decoration: none;
+}

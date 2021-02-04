@@ -1,0 +1,48 @@
+h2 {
+  color: #e58857;
+  font-size: 38px;
+  font-weight: bold;
+  line-height: 28px;
+  margin-top: 30px;
+  margin-bottom: 0;
+  margin-left: 13px;
+  padding: 5px;
+}
+.last-updated {
+  font-size: 12px;
+  opacity: 50%;
+  margin-left: 5px;
+}
+.overview {
+  margin-bottom: 20px;
+}
+.overview-description {
+  font-weight: bold;
+  font-size: 21px;
+}
+.extra-weather-info {
+  margin-left: -20px;
+  padding: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  opacity: 75%;
+  list-style: none;
+  margin-left: 5px;
+  padding: 1px;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+}
+
+li:first-letter {
+  text-transform: capitalize;
+  margin-left: 14px;
+}
