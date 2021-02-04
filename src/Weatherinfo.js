@@ -1,6 +1,6 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
-import FormattedDate from "./FormattedDate";
+import FormattedDate from "./formattedDate";
 import "./WeatherInfo.css";
 import WeatherTemperature from "./WeatherTemperature";
 

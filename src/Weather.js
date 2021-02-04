@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
-import WeatherInfo from "./WeatherInfo";
+import WeatherInfo from "./Weatherinfo";
 import WeatherForecast from "./WeatherForecast"
 import "./Weather.css";
 
@@ -64,6 +64,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherInfo data={weatherData} />
+        <img src="/images/lady.png" className="lady" alt="lady" />
         <h3>Forecast in 3-Hour Intervals</h3>
         <WeatherForecast city={weatherData.city} />
       </div>

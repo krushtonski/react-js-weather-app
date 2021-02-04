@@ -1,6 +1,6 @@
 h2 {
   color: #e58857;
-  font-size: 38px;
+  font-size: 42px;
   font-weight: bold;
   line-height: 28px;
   margin-top: 30px;
@@ -9,7 +9,7 @@ h2 {
   padding: 5px;
 }
 .last-updated {
-  font-size: 12px;
+  font-size: 16px;
   opacity: 50%;
   margin-left: 5px;
 }
@@ -19,6 +19,7 @@ h2 {
 .overview-description {
   font-weight: bold;
   font-size: 21px;
+  margin-top: 5px;
 }
 .extra-weather-info {
   margin-left: -20px;
