@@ -17,7 +17,7 @@ function App() {
         >
           Open-source code
         </a>{" "}
-        by <a href="https://katerushton.me">Kate Rushton</a>
+        by <a href="https://katerushton.me">Kate Rushton is awesome</a>
       </small>
       <div className="break" />
       <small>
