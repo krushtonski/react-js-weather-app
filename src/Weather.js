@@ -20,6 +20,7 @@ export default function Weather(props) {
       description: response.data.weather[0].description,
       icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
+      feelsLike: response.data.main.feels_like,
       city: response.data.name
     });
   }
@@ -67,7 +68,7 @@ export default function Weather(props) {
         <WeatherInfo data={weatherData} />
         <img src={Image} className="gardening" alt="lady" />
         <hr />
-        <h2>Forecast over 3-Hour Intervals</h2>
+        <h2>15-hour Forecast</h2>
         <WeatherForecast city={weatherData.city} />
       </div>
       </div>
