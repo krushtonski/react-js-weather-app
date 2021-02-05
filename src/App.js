@@ -17,7 +17,10 @@ function App() {
         >
           Open-source code
         </a>{" "}
-        by <a href="https://katerushton.me">Kate Rushton</a>
+        by <a href="https://katerushton.me"
+          target="_blank"
+          rel="noreferrer">
+            Kate Rushton</a>
       </small>
       <div className="break" />
       <small>
@@ -29,7 +32,9 @@ function App() {
           Watering Plants Illustration
         </a>{" "}
         by{" "}
-        <a href="https://blush.design/artists/irene-falgueras">
+        <a href="https://blush.design/artists/irene-falgueras"
+          target="_blank"
+          rel="noreferrer">
           Irene Falgueras
         </a>
       </small>
