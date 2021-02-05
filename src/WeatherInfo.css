@@ -1,9 +1,5 @@
-.extra-weather-info {
-  margin-left: -18px;
-  padding: 4px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  text-align: left;
+.Weatherinfo {
+  margin-bottom: 20px;
 }
 h1 {
   color: #e58857;
@@ -47,4 +43,11 @@ li {
 li:first-letter {
   text-transform: capitalize;
   margin-left: 14px;
+}
+.extra-weather-info {
+  margin-left: -18px;
+  padding: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: left;
 }
