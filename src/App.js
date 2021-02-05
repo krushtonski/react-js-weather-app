@@ -11,7 +11,7 @@ function App() {
  <div className="signatures">
       <small>
         <a
-          href="https://github.com/krushtonski/SheCodes-Weather-Application"
+          href="https://github.com/krushtonski/react-js-weather-app"
           target="_blank"
           rel="noreferrer"
         >
