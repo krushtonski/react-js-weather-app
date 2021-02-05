@@ -1,17 +1,17 @@
 .temperature {
   color: rgb(33, 33, 33);
-  font-size: 64px;
+  font-size: 68px;
   line-height: 1;
   font-weight: 400;
-  padding: 2px;
+  padding: 4px;
   margin-left: 5px;
 }
 
 .units {
   position: relative;
-  font-size: 18px;
+  font-size: 21px;
   top: -30px;
-  padding: 1px;
+  padding: 2px;
 }
 
 .WeatherTemperature .active {
