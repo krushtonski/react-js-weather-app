@@ -1,3 +1,10 @@
+.extra-weather-info {
+  margin-left: -18px;
+  padding: 4px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-align: left;
+}
 h1 {
   color: #e58857;
   font-size: 48px;
@@ -11,7 +18,7 @@ h1 {
 .last-updated {
   font-size: 16px;
   opacity: 0.5;
-  margin-left: 4px;
+  margin-left: 6px;
   margin-top: 4px;
 }
 .overview {
@@ -19,15 +26,8 @@ h1 {
 }
 .overview-description {
   font-weight: bold;
-  font-size: 21px;
+  font-size: 28px;
   margin-top: 5px;
-}
-.extra-weather-info {
-  margin-left: -18px;
-  padding: 4px;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  text-align: left;
 }
 ul {
   margin: 0;
@@ -38,8 +38,8 @@ li {
   opacity: 0.75;
   list-style: none;
   margin-left: 5px;
-  padding: 1px;
-  font-size: 16px;
+  padding: 4px;
+  font-size: 21px;
   font-weight: 100;
   line-height: 19px;
 }
