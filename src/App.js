@@ -13,28 +13,31 @@ function App() {
         <a
           href="https://github.com/krushtonski/react-js-weather-app"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer" 
         >
-          Open-source code
+          Open-source code{" "}
         </a>
-        by <a href="https://katerushton.me"
-          target="_blank"
-          rel="noreferrer">
-            Kate Rushton</a>
+        by <a href="https://katerushton.me" 
+            target="_blank"
+            rel="noreferrer" 
+         >
+
+            Kate Rushton </a>
       </small>
       <div className="break" />
       <small>
         <a
           href="https://blush.design/collections/cool-kids/scene-watering-plants/OYvKVU_Qt"
           target="_blank"
-          rel="noreferrer"
+          rel="noreferrer" 
         >
           Watering Plants Illustration
         </a>{" "}
         by{" "}
         <a href="https://blush.design/artists/irene-falgueras"
           target="_blank"
-          rel="noreferrer">
+          rel="noreferrer" 
+        >
           Irene Falgueras
         </a>
       </small>
