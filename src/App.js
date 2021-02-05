@@ -16,7 +16,7 @@ function App() {
           rel="noreferrer"
         >
           Open-source code
-        </a>{" "}
+        </a>
         by <a href="https://katerushton.me"
           target="_blank"
           rel="noreferrer">
