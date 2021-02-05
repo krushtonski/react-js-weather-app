@@ -3,11 +3,12 @@
   margin: 30px auto;
 }
 footer {
-  opacity: 0.4;
+  opacity: 0.6;
   padding: 1 px;
+  margin-top: -20px;
   margin-left: 6px;
   margin-bottom: 5px;
-  font-size: 24px;
+  font-size: 18x;
 }
 body {
   font-family: "Poppins", sans-serif;

@@ -21,7 +21,6 @@ function App() {
             target="_blank"
             rel="noreferrer" 
          >
-
             Kate Rushton </a>
       </small>
       <div className="break" />

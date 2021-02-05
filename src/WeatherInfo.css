@@ -8,13 +8,13 @@ h1 {
   line-height: 28px;
   margin-top: 30px;
   margin-bottom: 0;
-  margin-left: 13px;
+  margin-left: 6px;
   padding: 5px;
 }
 .last-updated {
   font-size: 16px;
+  margin-left: -4px;
   opacity: 0.5;
-  margin-left: 6px;
   margin-top: 4px;
 }
 .overview {
@@ -24,6 +24,7 @@ h1 {
   font-weight: bold;
   font-size: 28px;
   margin-top: 5px;
+  margin-left: -6px;
 }
 ul {
   margin: 0;
@@ -45,9 +46,15 @@ li:first-letter {
   margin-left: 14px;
 }
 .extra-weather-info {
-  margin-left: -18px;
+  margin-left: -28px;
   padding: 4px;
   margin-top: 5px;
   margin-bottom: 10px;
   text-align: left;
+}
+
+.divider {
+  font-size: 14px;
+  padding-right: 4px;
+  padding-left: 4px;
 }
