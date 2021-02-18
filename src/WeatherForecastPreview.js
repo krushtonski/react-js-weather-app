@@ -1,5 +1,6 @@
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
+import "./WeatherForecastPreview.css";
 
 export default function WeatherForecastPreview(props){
   function formatDay() {
@@ -8,16 +9,11 @@ export default function WeatherForecastPreview(props){
     let day = days[dayIndex];
     return day
   }
-
-   function temperature(){
-        let temperature = Math.round(props.data.temp.day);
-        return `${temperature}°C`;
-}
     return (
      <div className="WeatherForecastPrev col">
        {formatDay()}
        <WeatherIcon code={props.data.weather[0].icon}/>
-       {temperature()}
+           <span className="temperatures"><strong>{Math.round(props.data.temp.min)}</strong>°<span className="min-temps"><span className="divider">|</span>{Math.round(props.data.temp.max)}° </span></span>
       </div>
     );
 }
