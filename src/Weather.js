@@ -38,6 +38,19 @@ export default function Weather(props) {
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
+    function findCoordinates(position) {
+    const apiKey = "8292f4b5d4720ad564b1e69cd14e57f1";
+    let latitude = position.coords.latitude;
+    let longitude = position.coords.longitude;
+    let geoApiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${apiKey}&units=metric`;
+
+    axios.get(geoApiUrl).then(handleResponse);
+  }
+
+  function handleGeoLocation(event) {
+    event.preventDefault();
+    navigator.geolocation.getCurrentPosition(findCoordinates);
+  }
 
   if (weatherData.ready) {
     return (
@@ -45,7 +58,7 @@ export default function Weather(props) {
       <div className="container">
         <form className="mb-3" onSubmit={handleSubmit}>
           <div className="row">
-            <div className="col-9">
+            <div className="col-sm-8">
               <input
                 type="search"
                 placeholder="Type a city.."
@@ -55,19 +68,28 @@ export default function Weather(props) {
                 onChange={handleCityChange}
               />
             </div>
-            <div className="col-3">
+            <div className="col-sm-3">
               <input
                 type="submit"
                 value="SEARCH"
                 className="btn btn-primary w-100"
               />
             </div>
+         <div className="col-sm-1">
+          <button
+            type="click"
+            className="btn btn-primary findMe-button"
+            onClick={handleGeoLocation}
+          >
+          C
+          </button>
           </div>
+              </div>
         </form>
         <WeatherInfo data={weatherData} />
         <img src={Image} className="gardening" alt="lady" />
         <hr />
-        <h2>15-hour Forecast</h2>
+        <h2>5 day forecast</h2>
         <WeatherForecast city={weatherData.city} />
       </div>
       </div>
