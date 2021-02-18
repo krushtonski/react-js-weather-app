@@ -92,7 +92,7 @@ export default function Weather(props) {
         <WeatherInfo data={weatherData} />
         <img src={Image} className="gardening" alt="lady" />
         <hr />
-        <h2>5 day forecast</h2>
+        <h2>5-day weather forecast</h2>
         <WeatherForecast lat={weatherData.lat} lon={weatherData.lon} />
       </div>
       </div>
