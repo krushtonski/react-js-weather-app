@@ -58,7 +58,7 @@ export default function Weather(props) {
       <div className="container">
         <form className="mb-3" onSubmit={handleSubmit}>
           <div className="row">
-            <div className="col-sm-8">
+            <div className="col-sm-7">
               <input
                 type="search"
                 placeholder="Type a city.."
@@ -81,10 +81,10 @@ export default function Weather(props) {
             className="btn btn-primary findMe-button"
             onClick={handleGeoLocation}
           >
-          C
+          <div className="locationMarker"><i className="fas fa-map-marker-alt"></i></div>
           </button>
           </div>
-              </div>
+          </div>
         </form>
         <WeatherInfo data={weatherData} />
         <img src={Image} className="gardening" alt="lady" />
