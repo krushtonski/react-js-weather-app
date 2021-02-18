@@ -22,7 +22,9 @@ export default function Weather(props) {
       icon: response.data.weather[0].icon,
       wind: response.data.wind.speed,
       feelsLike: response.data.main.feels_like,
-      city: response.data.name
+      city: response.data.name,
+      lat: response.data.coord.lat,
+      lon: response.data.coord.lon
     });
   }
    function handleSubmit(event) {
@@ -91,7 +93,7 @@ export default function Weather(props) {
         <img src={Image} className="gardening" alt="lady" />
         <hr />
         <h2>5 day forecast</h2>
-        <WeatherForecast city={weatherData.city} />
+        <WeatherForecast lat={weatherData.lat} lon={weatherData.lon} />
       </div>
       </div>
     );
