@@ -24,7 +24,7 @@ function App() {
             Kate Rushton </a>
       </small>
       <div className="break" />
-      <small>
+      <small className="reference-links">
         <a
           href="https://blush.design/collections/cool-kids/scene-watering-plants/OYvKVU_Qt"
           target="_blank"
