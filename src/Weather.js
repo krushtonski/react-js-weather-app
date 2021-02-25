@@ -4,6 +4,7 @@ import Image from "./Images/lady.png";
 import WeatherInfo from "./Weatherinfo";
 import WeatherForecast from "./WeatherForecast"
 import "./Weather.css";
+import "./App.css";
 
 
 export default function Weather(props) {
