@@ -1,3 +1,8 @@
+@media (max-width: 576px) {
+  .gardening {
+    display: none;
+  }
+}
 .App {
   max-width: 700px;
   margin: 30px auto;
