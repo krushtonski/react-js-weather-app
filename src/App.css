@@ -1,9 +1,9 @@
 @media (max-width: 576px) {
   .gardening {
     display: none;
-    h2 {
-      font-size: 21px;
-    }
+  }
+  h2 {
+    font-size: 18px;
   }
 }
 .App {
