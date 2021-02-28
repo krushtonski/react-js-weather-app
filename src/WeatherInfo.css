@@ -53,6 +53,9 @@ li:first-letter {
   text-align: left;
   font-size: 16px;
 }
+.weather-temperature {
+  margin-top: 10px;
+}
 .current-weather-icon {
   margin-left: 10px;
   margin-top: -10px;
