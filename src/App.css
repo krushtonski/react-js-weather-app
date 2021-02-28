@@ -1,25 +1,25 @@
+/* Making the app responsive for mobile */
 @media (max-width: 576px) {
   .gardening {
     display: none;
   }
-  h1 {
+  h1,
+  .forecast-weekdays {
     font-size: 28px;
   }
   h2 {
     font-size: 21px;
   }
-  .reference-links {
-    font-size: 16px;
+  .overview-description,
+  .temperatures {
+    font-size: 24px;
   }
+  .reference-links,
   .opensource-link {
     font-size: 16px;
   }
-  .form-control {
-    margin: 10px;
-  }
-  .findMe-button {
-    margin: 10px;
-  }
+  .form-control,
+  .findMe-button,
   .search-button {
     margin: 10px;
   }
@@ -29,15 +29,6 @@
   .current-main-temp {
     margin-top: -70px;
     margin-left: -60px;
-  }
-  .overview-description {
-    font-size: 24px;
-  }
-  .temperatures {
-    font-size: 24px;
-  }
-  .forecast-weekdays {
-    font-size: 28px;
   }
   .WeatherForecastPrev {
     margin: 20px;
