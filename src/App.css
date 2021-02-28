@@ -30,11 +30,11 @@
     margin-top: -70px;
     margin-left: -60px;
   }
-  .forecasticon {
-    margin-left: 10px;
-  }
   .temperatures {
-    font-size: 21px;
+    font-size: 24px;
+  }
+  .forecast-weekdays {
+    font-size: 32px;
   }
   .WeatherForecastPrev {
     margin: 20px;
