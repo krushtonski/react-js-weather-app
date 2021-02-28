@@ -8,6 +8,9 @@
   .reference-links {
     font-size: 12px;
   }
+  .signatures {
+    font-size: 12px;
+  }
 }
 .App {
   max-width: 700px;
