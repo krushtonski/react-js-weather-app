@@ -1,9 +1,3 @@
-@media (max-width: 576px) {
-  .divider {
-    display: none;
-  }
-}
-
 .Weatherinfo {
   margin-bottom: 20px;
 }
@@ -52,16 +46,10 @@ li:first-letter {
   margin-left: 14px;
 }
 .extra-weather-info {
-  margin-left: -50px;
+  margin-left: -15px;
   padding: 4px;
   margin-top: 5px;
   margin-bottom: 10px;
   text-align: left;
   font-size: 16px;
-}
-
-.divider {
-  font-size: 14px;
-  padding-right: 4px;
-  padding-left: 4px;
 }
