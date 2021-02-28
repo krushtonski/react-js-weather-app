@@ -4,7 +4,7 @@ import "./WeatherForecastPreview.css";
 
 export default function WeatherForecastPreview(props){
   function formatDay() {
-    let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+    let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
     let dayIndex = new Date(props.data.dt * 1000).getDay();
     let day = days[dayIndex];
     return day
