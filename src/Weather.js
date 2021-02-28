@@ -91,7 +91,7 @@ export default function Weather(props) {
          </div>
         </form>
         <WeatherInfo data={weatherData} />
-     <img src={Image} className="gardening" alt="lady" />
+        <img src={Image} className="gardening" alt="lady" />
         <hr />
         <h2>6-day Weather Forecast</h2>
         <WeatherForecast lat={weatherData.lat} lon={weatherData.lon} />
