@@ -31,7 +31,10 @@
     margin-left: -60px;
   }
   .forecasticon {
-    margin-left: 0px;
+    margin-left: 20px;
+  }
+  .temperatures {
+    font-size: 21px;
   }
   .WeatherForecastPrev {
     margin: 20px;
