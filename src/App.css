@@ -25,6 +25,7 @@
   }
   .current-main-temp {
     float: right;
+    margin-top: -20px;
   }
 }
 .App {
