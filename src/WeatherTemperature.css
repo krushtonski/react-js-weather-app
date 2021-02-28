@@ -4,8 +4,7 @@
   line-height: 1;
   font-weight: 400;
   padding: 4px;
-  margin-top: -100px;
-  margin-left: 45px;
+  margin-left: 5px;
 }
 
 .units {
@@ -18,8 +17,10 @@
 .WeatherTemperature .active {
   color: rgb(33, 33, 33);
   cursor: default;
+  margin-top: -100px;
 }
 
 .WeatherTemperature .active:hover {
   text-decoration: none;
+  margin-top: -100px;
 }
