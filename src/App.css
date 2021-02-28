@@ -23,9 +23,6 @@
   form {
     padding: 0px;
   }
-  .WeatherForecast {
-    text-align: left;
-  }
 }
 .App {
   max-width: 700px;
