@@ -32,6 +32,8 @@
   }
   .forecasticon {
     margin-left: 20px;
+    height: 100px;
+    width: 100px;
   }
   .temperatures {
     font-size: 21px;
