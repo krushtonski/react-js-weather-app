@@ -30,11 +30,8 @@
     margin-top: -70px;
     margin-left: -60px;
   }
-  .animatedicon {
-    size: 800px;
-  }
-  .forecast-block {
-    margin: 10px;
+  .forecasticon {
+    margin-left: 80px;
   }
 }
 .App {
