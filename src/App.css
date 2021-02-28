@@ -39,6 +39,9 @@
   .WeatherForecastPrev {
     margin: 20px;
   }
+  .forecast-icon {
+    margin-left: -5px;
+  }
 }
 .App {
   max-width: 700px;
