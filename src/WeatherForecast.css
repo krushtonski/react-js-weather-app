@@ -5,8 +5,10 @@
 }
 .WeatherForecast {
   text-align: center;
-  justify-content: center;
   font-size: 21px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+.animatedicon {
+  justify-content: center;
 }
