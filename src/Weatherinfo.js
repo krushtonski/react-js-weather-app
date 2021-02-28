@@ -1,3 +1,5 @@
+// Latest weather information - temp, humidity etc. 
+
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
 import FormattedDate from "./formattedDate";

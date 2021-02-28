@@ -36,12 +36,13 @@ export default function Weather(props) {
   function handleCityChange(event) {
     setCity(event.target.value);
   }
-
+// Using OpenWeather Api to get weather info for searched city
   function search() {
     const apiKey = "8292f4b5d4720ad564b1e69cd14e57f1";
     let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
     axios.get(apiUrl).then(handleResponse);
   }
+  // Using the OpenWeather API to find weather where you are now
     function findCoordinates(position) {
     const apiKey = "8292f4b5d4720ad564b1e69cd14e57f1";
     let latitude = position.coords.latitude;

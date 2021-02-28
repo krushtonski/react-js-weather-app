@@ -1,3 +1,5 @@
+// Weather forecast for specific days
+
 import React from "react";
 import WeatherIcon from "./WeatherIcon";
 import "./WeatherForecastPreview.css";
