@@ -58,7 +58,7 @@ li:first-letter {
 }
 .current-main-temp {
   margin-left: 60px;
+  margin-top: -60px;
 }
 .current-main-temp {
-  margin-top: -80px;
 }
