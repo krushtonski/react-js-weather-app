@@ -61,7 +61,7 @@ export default function Weather(props) {
       <div className="Weather">
       <div className="container">
         <form className="mb-3" onSubmit={handleSubmit}>
-          <div className="row">
+                <div className="row">
             <div className="col-sm-12 col-md-8">
               <input
                 type="search"
@@ -88,15 +88,16 @@ export default function Weather(props) {
           <div className="locationMarker"><i className="fas fa-map-marker-alt"></i></div>
           </button>
           </div>
-          </div>
+         </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <img src={Image} className="gardening" alt="lady" />
+     <img src={Image} className="gardening" alt="lady" />
         <hr />
         <h2>6-day Weather Forecast</h2>
         <WeatherForecast lat={weatherData.lat} lon={weatherData.lon} />
       </div>
       </div>
+
     );
   } else {
     search();
