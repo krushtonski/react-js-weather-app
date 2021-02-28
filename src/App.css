@@ -17,6 +17,12 @@
   .form-control {
     margin: 10px;
   }
+  .findMe-button {
+    margin: 10px;
+  }
+  .search-button {
+    margin: 10px;
+  }
 }
 .App {
   max-width: 700px;
