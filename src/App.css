@@ -30,6 +30,9 @@
     margin-top: -70px;
     margin-left: -60px;
   }
+  .animatedicon {
+    size: 80px;
+  }
 }
 .App {
   max-width: 700px;
