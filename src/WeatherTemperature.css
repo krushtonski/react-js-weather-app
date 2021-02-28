@@ -13,14 +13,14 @@
   top: -30px;
   padding: 2px;
 }
-
+.WeatherTemperature {
+  margin-top: -100px;
+}
 .WeatherTemperature .active {
   color: rgb(33, 33, 33);
   cursor: default;
-  margin-top: -100px;
 }
 
 .WeatherTemperature .active:hover {
   text-decoration: none;
-  margin-top: -100px;
 }
