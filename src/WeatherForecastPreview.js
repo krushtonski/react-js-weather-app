@@ -12,7 +12,7 @@ export default function WeatherForecastPreview(props){
     return (
      <div className="WeatherForecastPrev col">
        {formatDay()}
-      <div className="forecast-icon"> <WeatherIcon code={props.data.weather[0].icon}/></div>
+      <WeatherIcon code={props.data.weather[0].icon}/>
            <span className="temperatures"><strong>{Math.round(props.data.temp.min)}</strong>°<span className="min-temps"><span className="divider">|</span>{Math.round(props.data.temp.max)}° </span></span>
       </div>
     );
