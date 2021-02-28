@@ -73,14 +73,14 @@ export default function Weather(props) {
                 onChange={handleCityChange}
               />
             </div>
-            <div className="col-12 col-md-3">
+            <div className="col-9 col-md-3">
               <input
                 type="submit"
                 value="SEARCH"
                 className="btn btn-primary w-100 search-button"
               />
             </div>
-         <div className="col-2 col-md-1">
+         <div className="col-1 col-md-1">
           <button
             type="click"
             className="btn btn-primary findMe-button"
