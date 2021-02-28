@@ -1,3 +1,9 @@
+@media (max-width: 576px) {
+  .divider {
+    display: none;
+  }
+}
+
 .Weatherinfo {
   margin-bottom: 20px;
 }

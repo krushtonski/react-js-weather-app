@@ -26,9 +26,6 @@
   .forecast-individual {
     margin: 20px;
   }
-  .divider {
-    display: none;
-  }
 }
 .App {
   max-width: 700px;
