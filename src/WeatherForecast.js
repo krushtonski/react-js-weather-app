@@ -26,10 +26,12 @@ return (
       <div className="col-sm-12 col-md-3"><WeatherForecastPreview data={forecastData.daily[1]} /></div>
       <div className="col-sm-12 col-md-3"><WeatherForecastPreview data={forecastData.daily[2]} /></div>
       <div className="col-sm-12 col-md-3"><WeatherForecastPreview data={forecastData.daily[3]} /></div>
-        <div className="col-sm-12 col-md-3"><WeatherForecastPreview data={forecastData.daily[1]} /></div>
+      </div>
+      <div className= "WeatherForecast row">
+      <div className="col-sm-12 col-md-3"><WeatherForecastPreview data={forecastData.daily[1]} /></div>
       <div className="col-sm-12 col-md-3"><WeatherForecastPreview data={forecastData.daily[2]} /></div>
       <div className="col-sm-12 col-md-3"><WeatherForecastPreview data={forecastData.daily[3]} /></div>
-    </div>
+      </div>
     </div>
 );
 } else {
