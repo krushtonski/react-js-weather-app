@@ -4,11 +4,6 @@
 .divider {
   font: size 16px;
 }
-@media (max-width: 576px) {
-  .forecasticon {
-    margin-left: 40px;
-  }
-}
 .forecasticon {
-  margin-left: -5px;
+  align-items: center;
 }
