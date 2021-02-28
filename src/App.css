@@ -30,6 +30,10 @@
     margin-top: -70px;
     margin-left: -60px;
   }
+  .forecast-block {
+    display: block;
+    align-content: center;
+  }
 }
 .App {
   max-width: 700px;
