@@ -34,6 +34,9 @@
     justify-content: center;
     margin: 10px;
   }
+  .animatedicon {
+    justify-content: center;
+  }
 }
 .App {
   max-width: 700px;
