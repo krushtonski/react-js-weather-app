@@ -26,7 +26,6 @@ return (
       <div className="col-sm-12 col-m-6"><WeatherForecastPreview data={forecastData.daily[1]} /></div>
       <div className="col-sm-12 col-m-6"><WeatherForecastPreview data={forecastData.daily[2]} /></div>
       <div className="col-sm-12 col-m-6"><WeatherForecastPreview data={forecastData.daily[3]} /></div>
-      <div className="col-sm-12 col-m-6"><WeatherForecastPreview data={forecastData.daily[4]} /></div>
     </div>
     </div>
 );
