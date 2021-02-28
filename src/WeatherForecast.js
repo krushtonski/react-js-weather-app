@@ -21,12 +21,12 @@ function getForecast(){
 if (loaded && props.lat === forecastData.lat){
 return (
     <div className="WeatherForecast row">
-      <div className="d-flex col-xs-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[0]} /></div>
-      <div className="d-flex  col-xs-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[1]} /></div>
-      <div className="d-flex  col-xs-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[2]} /></div>
-      <div className="d-flex  col-xs-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[3]} /></div>
-      <div className="d-flex  col-xs-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[4]} /></div>
-      <div className="d-flex  col-xs-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[5]} /></div>
+      <div className="d-flex col-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[0]} /></div>
+      <div className="d-flex  col-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[1]} /></div>
+      <div className="d-flex  col-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[2]} /></div>
+      <div className="d-flex  col-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[3]} /></div>
+      <div className="d-flex  col-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[4]} /></div>
+      <div className="d-flex  col-6 col-md-2 forecast-block justify-content-center"><WeatherForecastPreview data={forecastData.daily[5]} /></div>
       </div>
 );
 } else {
