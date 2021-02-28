@@ -9,7 +9,7 @@ function App() {
       <Weather defaultCity="Berlin"/>
      <footer>
  <div className="signatures">
-      <small>
+      <small className="opensource-link">
         <a
           href="https://github.com/krushtonski/react-js-weather-app"
           target="_blank"

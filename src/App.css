@@ -3,13 +3,16 @@
     display: none;
   }
   h2 {
-    font-size: 18px;
+    font-size: 21px;
   }
-  .reference-links {
-    font-size: 12px;
+  .opensource-link {
+    font-size: 16px;
   }
   .signatures {
-    font-size: 12px;
+    font-size: 16px;
+  }
+  .forecast-icon {
+    margin-left: 0px;
   }
 }
 .App {
