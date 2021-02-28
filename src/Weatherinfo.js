@@ -17,12 +17,12 @@ export default function WeatherInfo(props){
     </ul>
   </div>
   <div className="row">
-    <div className="col-md-2 col-sm-6">
+    <div className="col-md-3 col-sm-6">
       <div className="clearfix weather-temperature">
        <div className="float-left">
         <WeatherIcon code ={props.data.icon}/>
         </div>
-    <div className="col-md-2 col-sm-6">
+    <div className="col-md-3 col-sm-6">
         <div className="float-left">
         <WeatherTemperature celsius={props.data.temperature} />
         </div>
@@ -31,12 +31,14 @@ export default function WeatherInfo(props){
     </div>
   </div>
     <div className="row">
+    <div className="col-6">
     <ul>
       <li className="extra-weather-info">
         <li>Feels like: <span>{Math.round(props.data.feelsLike)}</span> ºC</li>
         <li>Humidity: {props.data.humidity}% <span className="divider">|</span> Wind: {Math.round(props.data.wind)} km/h</li>
       </li>
     </ul>
+    </div>
   </div>
 </div>
   );
