@@ -55,6 +55,7 @@ li:first-letter {
 }
 .current-weather-icon {
   margin-left: 10px;
+  margin-right: 10px;
 }
 .current-main-temp {
   margin-left: 10px;
