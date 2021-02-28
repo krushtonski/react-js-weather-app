@@ -3,11 +3,11 @@
   .gardening {
     display: none;
   }
-  h1,
-  .forecast-weekdays {
+  h1 {
     font-size: 28px;
   }
   h2,
+  .forecast-weekdays,
   .overview-description,
   .temperatures {
     font-size: 21px;
