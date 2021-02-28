@@ -80,7 +80,7 @@ export default function Weather(props) {
                 className="btn btn-primary w-100 search-button"
               />
             </div>
-         <div className="col-2 col-md-1">
+         <div className="col-1 col-md-1">
           <button
             type="click"
             className="btn btn-primary findMe-button"
