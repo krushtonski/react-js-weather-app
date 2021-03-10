@@ -28,17 +28,11 @@
     margin-top: -70px;
     margin-left: -60px;
   }
-  .forecast-block {
-    background-color: #010101;
-  }
   .WeatherForecastPrev {
     margin: 10px;
   }
   .forecast-icon {
     margin-left: -5px;
-  }
-  .forecast-block {
-    border-color: 1px #010101;
   }
 }
 .App {
