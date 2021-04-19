@@ -22,7 +22,7 @@ form {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 }
 .btn:hover {
-  border: 1px solid #e3d5c5;
+  border: 0.25px solid #e58857;
   background-color: #ffffff;
   color: #e58857;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
